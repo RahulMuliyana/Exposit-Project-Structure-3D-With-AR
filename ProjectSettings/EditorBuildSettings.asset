@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Exposit Sample Scene/Scene/ImageTarget/ImageTarget.unity
+    guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/Exposit Sample Scene/Scene/MidAirTarget 1.unity
+    guid: ca40d5a0216892a41817b3b20fefaa9b
+  - enabled: 0
+    path: Assets/Scenes/ARScene/ARScene.unity
+    guid: fb3de7e10e93ecc41a846c8c50f28e7c
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 73e0fad7d9857484cbd6562edcb27a2d, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 0db29b3e9e590fc4eba1c3add57aa0af, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: ce1494a85a05a6943bff7011e411d877, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 035fe5b555b794c469f886c79eb7ecc2, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 718045516c8fa4648ba1dbe31bf7fcf3, type: 2}
